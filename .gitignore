@@ -1,0 +1,276 @@
+# ============================================================================
+# FRONTEND .GITIGNORE (React/Vite)
+# Place this file at: sql agent/frontend/.gitignore
+# ============================================================================
+
+# ============================================================================
+# DEPENDENCIES
+# ============================================================================
+
+# Node modules
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+.pnpm-debug.log*
+pnpm-lock.yaml
+
+# ============================================================================
+# BUILD OUTPUT
+# ============================================================================
+
+# Vite build output
+dist/
+dist-ssr/
+build/
+
+# Next.js (if you switch to Next.js later)
+.next/
+out/
+
+# Production build
+/build
+
+# Static files
+*.tsbuildinfo
+
+# ============================================================================
+# LOGS
+# ============================================================================
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================================================
+# ENVIRONMENT VARIABLES
+# ============================================================================
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# ============================================================================
+# IDE & EDITORS
+# ============================================================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# TESTING
+# ============================================================================
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Jest
+jest_coverage/
+
+# Vitest
+.vitest/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ============================================================================
+# MISC
+# ============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Lock files (keep package-lock.json but ignore others)
+# yarn.lock (optional - some teams commit this)
+# pnpm-lock.yaml (optional - some teams commit this)
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Storybook
+storybook-static/
+.storybook/build/
+
+# PWA
+workbox-*.js
+sw.js
+service-worker.js
+
+# Bundle analyzer
+.bundle-analyze/
+
+# Sentry
+.sentryclirc
+
+# Vercel
+.vercel
+
+# Turborepo
+.turbo
+
+# ============================================================================
+# DEBUGGING
+# ============================================================================
+
+# Chrome DevTools
+.chrome/
+
+# Source maps (optional - depends on your needs)
+# *.map
+
+# Debug logs
+debug.log
+npm-debug.log
+
+# ============================================================================
+# PACKAGE MANAGER
+# ============================================================================
+
+# Yarn 2+
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# ============================================================================
+# TAILWIND CSS
+# ============================================================================
+
+# Tailwind JIT cache (if using JIT mode)
+.tailwind.cache
+
+# ============================================================================
+# VITE SPECIFIC
+# ============================================================================
+
+# Vite cache
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# ============================================================================
+# REACT SPECIFIC
+# ============================================================================
+
+# React DevTools
+.react-devtools
+
+# ESBuild cache
+.esbuild/
+
+# ============================================================================
+# COMPRESSED FILES
+# ============================================================================
+
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================================================
+# DOCUMENTATION
+# ============================================================================
+
+# Generated docs
+docs/_build/
+.docz/
+
+# ============================================================================
+# MONITORING & ANALYTICS
+# ============================================================================
+
+# Lighthouse reports
+lighthouse-report.html
+
+# Web vitals
+web-vitals.json
